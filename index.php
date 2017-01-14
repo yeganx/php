@@ -15,6 +15,7 @@ switch (strtolower($_GET['action'])) {
             echo $x;
             echo gethostname().'\n';
             print_r($_SERVER['SERVER_NAME']);
+            $url="http://karaf-camel-rest-ose-test.rhel-cdk.10.1.2.2.xip.io/tel/".$_POST['tel'];
            // $url="http://api.kavenegar.com/v1/434D457061732B317A325568383277597A51617944513D3D/sms/send.json?receptor=09363032775&sender=10004346&message=hi";
             $curl=curl_init($url);
         //   curl_setopt($curl,CURLOPT_POST,$url);
