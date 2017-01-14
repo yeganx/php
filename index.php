@@ -5,6 +5,7 @@ require 'headerx.php';
 require "db.php";
 $user= new user();
 ini_set('display_errors',1);
+print ($_SERVER['SERVER_NAME']);
 
 //echo $dbx->login($_POST['username'], $_POST['password']);
 switch (strtolower($_GET['action'])) {
@@ -12,10 +13,12 @@ switch (strtolower($_GET['action'])) {
         if ($_POST['username'] && $_POST['mail']&& $_POST['tel']) {
             $x=$user->add_user($_POST['username'],$_POST['mail'],$_POST['tel']);
             echo $x;
-
-            $url="http://api.kavenegar.com/v1/434D457061732B317A325568383277597A51617944513D3D/sms/send.json?receptor=09363032775&sender=10004346&message=hi";
+            echo gethostname().'\n';
+            print_r($_SERVER['SERVER_NAME']);
+           // $url="http://api.kavenegar.com/v1/434D457061732B317A325568383277597A51617944513D3D/sms/send.json?receptor=09363032775&sender=10004346&message=hi";
             $curl=curl_init($url);
         //   curl_setopt($curl,CURLOPT_POST,$url);
+
            $result=curl_exec($curl);
            curl_close($curl);
            print_r($result);
@@ -43,7 +46,7 @@ switch (strtolower($_GET['action'])) {
         <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
         <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"/>
         <div></div>
-        <form class="form-signin" method="post" action="http://localhost/register/index.php?action=reg">
+        <form class="form-signin" method="post" action="index.php?action=reg">
             <span id="reauth-email" class="reauth-email"></span>
             <input type="text" id="inputEmail" class="form-control" name="username" placeholder="username" required
                    autofocus>
