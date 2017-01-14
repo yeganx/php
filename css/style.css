@@ -1,0 +1,530 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    border: 0;
+}
+
+body {
+    text-align: center;
+    background-repeat: repeat;
+}
+
+.default_div {
+    width: 100%;
+}
+
+#header_box {
+    padding: 15px 0 15px 0;
+    background-color: #EAEAEA;
+}
+
+#header {
+    height: 115px;
+    background-image: url(../img/aceslogo.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.main {
+    direction: rtl;
+    font-family: Tahoma, Geneva, sans-serif;
+    width: 100%;
+    text-align: center;
+
+}
+
+.main_center {
+    direction: rtl;
+    font-family: Tahoma, Geneva, sans-serif;
+    width: 1200px;
+    display: inline-block;
+    text-align: right;
+    padding: 0 0px 10px 0px;
+    background-color: #FFF;
+    margin-right: 150px;
+}
+
+.slider_box {
+    width: 700px;
+    height: 300px;
+    background-color: #3C3C3C;
+    display: inline-block;
+    float: left;
+    border: 0px solid #003C4E;
+    margin: 0px 0px 50px 0px;
+}
+
+.menu_box {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0 0 0;
+    font-size: 15px;
+    height: 35px;
+}
+
+.menu {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    list-style: none;
+    float: right;
+}
+
+.menu li a {
+    display: block;
+    padding: 5px 8px;
+    color: #fff;
+    text-decoration: rtl;
+    font-size: 14px;
+    border-left: 1px dotted #587479;
+    border-right: 1px dotted #587479;
+
+}
+
+.menu a:hover {
+    color: #FFC2D0;
+}
+
+.right {
+    width: 330px;
+    display: inline-block;
+    float: right;
+    margin: 30px 50px 50px 0px;
+}
+
+.right li {
+    list-style: none;
+    margin: 0 0 10px;
+    border-bottom: 1px dotted #2D767A;
+    padding: 0px 0 10px 0;
+    text-align: justify;
+}
+
+.right a {
+    color: #173D3F
+}
+
+.right a:hover {
+    color: #008765;
+}
+
+#left {
+    width: 700px;
+    display: inline-block;
+    float: left;
+    margin: 30px 0px 50px 50px;
+}
+
+/*=========================== yegane ================================*/
+.page_title_y {
+    margin-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.form_y {
+
+    width: 70%;
+    margin: 0 auto 20px;
+    border: 1px solid #e5e5e5;
+    background-color: cornsilk;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 10px;
+
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+.form_title_y {
+    padding-top: 5px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: tomato;
+
+}
+
+.section_y {
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-top: 20px;
+
+}
+
+.blockrow_y {
+
+    padding-bottom: 20px;
+    padding-top: 15px;
+    border-bottom: 1px solid lavender;
+    margin: 10px;
+    text-align: right
+}
+
+.blockrow_y label {
+    width: 200px;
+    float: right;
+    font-size: 15px
+}
+
+form .rightcol_y {
+    display: block;
+    margin-right: 200px;
+    max-width: 496px;
+    float: none;
+
+}
+
+.primary_y {
+    width: 50%
+}
+
+.textbox_y {
+    width: 248px
+}
+
+input.textbox_y {
+    height: 25px;
+    padding-right: 5px;
+}
+
+.btn-primary_y {
+    color: #ffffff;
+    margin: 6px;
+    padding: 5px;
+    font-size: 20px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: lightsalmon;
+    background-image: -moz-linear-gradient(top, lightsalmon, tomato);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(lightsalmon), to(tomato));
+    background-image: -webkit-linear-gradient(top, lightsalmon, tomato);
+    background-image: -o-linear-gradient(top, lightsalmon, tomato);
+    background-image: linear-gradient(to bottom, lightsalmon, tomato);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='tomato', endColorstr='lightsalmon', GradientType=0);
+    border-color: tomato, lightsalmon, #002a80;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    *background-color: lightsalmon;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+/*======================================*/
+.main_y {
+    direction: rtl;
+    font-family: Tahoma, Geneva, sans-serif;
+    width: 100%;
+    background-color: #DCDCDC;
+    text-align: center;
+}
+
+.main_center_y {
+    direction: rtl;
+    font-family: Tahoma, Geneva, sans-serif;
+    width: 970px;
+    display: inline-block;
+    text-align: right;
+    padding: 0 0 30px 0;
+}
+
+.title_y:hover {
+    font-size: 150%;
+    color: brown;
+}
+.title_y{
+    color: #002a80;
+    text-underline-position: below;
+}
+.left {
+    width: 600px;
+    display: inline-block;
+    borderstyle: double;
+    padding: 35 15 10 10px;
+    float: right;
+    margin: 30px 70px 50px 0px;
+
+}
+
+
+#results{
+    font: 12px Arial, Helvetica, sans-serif;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#results .loading-indication{
+    background:#FFFFFF;
+    padding:10px;
+    position: absolute;
+}
+.paginate {
+    margin: 10px;
+    padding: 0px;
+    height: 30px;
+    display: block;
+    text-align: center;
+}
+.paginate li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+    margin-right: 1px;
+    width: 30px;
+    text-align: center;
+    background: #4CC2AF;
+    line-height: 25px;
+}
+.paginate .active {
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+    margin-right: 1px;
+    width: 30px;
+    text-align: center;
+    line-height: 25px;
+    background-color: tomato;
+}
+.paginate li a{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+#results{
+
+    padding: 10 5 10 5px;
+    border-color: rgba(250, 49, 64, 0.94) rgba(43, 188, 43, 0.99);
+    border-width:10px ;
+    border-radius: 10px;
+    border-style: solid;
+
+}
+.page_result li{
+    padding: 10px;
+    font-size: 12px;
+    list-style: none;
+    border-bottom-style: groove;
+
+}
+.page_result .page_name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+    direction: rtl;
+
+}
+/*
+ * Specific styles of signin component
+ */
+/*
+ * General styles
+ */
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.16), rgb(6, 47, 16));
+}
+
+.card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+/*
+ * Card component
+ */
+.card {
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*
+ * Form styles
+ */
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.reauth-email {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin #inputEmail,
+.form-signin #inputPassword {
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-signin {
+    /*background-color: #4d90fe; */
+    background-color: rgb(104, 145, 162);
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: rgb(12, 97, 33);
+}
+
+.forgot-password {
+    color: rgb(104, 145, 162);
+}
+
+.forgot-password:hover,
+.forgot-password:active,
+.forgot-password:focus{
+    color: rgb(12, 97, 33);
+}
+
+
+.sidebar .sidebar-nav.navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.sidebar .sidebar-search {
+    padding: 15px;
+}
+
+.sidebar ul li {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.sidebar ul li a.active {
+    background-color: #eee;
+}
+
+.sidebar .arrow {
+    float: left;
+}
+
+.sidebar .fa.arrow:before {
+    content: "\f104";
+}
+
+.sidebar .active>a>.fa.arrow:before {
+    content: "\f107";
+}
+
+.sidebar .nav-second-level li,
+.sidebar .nav-third-level li {
+    border-bottom: 0!important;
+}
+
+.sidebar .nav-second-level li a {
+    padding-left: 37px;
+}
+
+.sidebar .nav-third-level li a {
+    padding-left: 52px;
+}
+form.go-right label {
+    border-radius: 0 5px 5px 0;
+    height: 100%;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    margin-right: -100%;
+}
+form.go-right input:focus + label, form.go-right textarea:focus + label {
+    right: 0;
+    margin-right: 0;
+    width: 40%;
+    padding-top: 5px;
+}
